@@ -159,3 +159,27 @@ footer {
     }
 }
 
+/* Social Media Section */
+.socials p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Style for the icons and links */
+.socials a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.socials a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+/* Icons styling */
+.socials i {
+    margin-right: 10px;
+}
+
+
