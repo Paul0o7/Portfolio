@@ -1,18 +1,196 @@
-/* Global Styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
 }
 
-/* Header & Navigation */
+/* Header Styles */
 header {
-    background-color: #222;
-    color: white;
+    background: #2c3e50;
+    color: #fff;
     padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Grid */
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    width: 250px;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Mobile-friendly Styles */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .projects-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 80%;
+    }
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Block */
+.content-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.content-image {
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styling */
+.content-text {
+    width: 45%;
+    text-align: left;
+    padding: 10px;
+}
+
+.content-text p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Mobile-friendly Styles */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-image {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .content-text {
+        width: 80%;
+    }
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background: #2c3e50;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -21,72 +199,106 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
 }
 
 nav ul li {
-    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Profile Image */
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-/* CAD Projects Grid */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    max-width: 900px;
-    margin: auto;
+/* Header Styles */
+header {
+    background: #2c3e50;
+    color: #fff;
     padding: 20px;
 }
 
-.project {
-    background: white;
-    padding: 15px;
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    width: 80%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+/* Content Block */
+.content-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.project a {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-    color: #007BFF;
-    text-decoration: none;
+/* Image Styling */
+.content-image {
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project a:hover {
-    text-decoration: underline;
+/* Text Styling */
+.content-text {
+    width: 45%;
+    text-align: left;
+    padding: 10px;
+}
+
+.content-text p {
+    font-size: 1.1em;
+    line-height: 1.5;
 }
 
 /* Footer */
 footer {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #222;
+    background: #2c3e50;
     color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
+
+/* Mobile-friendly Styles */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-image {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .content-text {
+        width: 80%;
+    }
+}
+
