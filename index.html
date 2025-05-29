@@ -3,66 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Portfolio</title>
+    <title>Paul Consuelo-Valencia Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2f6a6450bc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        .portfolio-section-content {
+            /* display: none; - No longer hiding by default */
+            padding-top: 20px;
+        }
+        .portfolio-section-content.show {
+            display: block; /* Keep this for potential future use */
+        }
+        /*.portfolio-section h2 { - No longer clickable */
+        /* cursor: pointer;*/
+        /*}*/
+    </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Explore my work, projects, and passions!</p>
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Paul Consuelo-Valencia</h1>
+            <p>Explore My Diverse Portfolio</p>
+        </div>
     </header>
 
-    <!-- Navigation Bar Below Header -->
-   <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cad.html">CAD</a></li>
-        <li><a href="multimedia.html">Multimedia</a></li>
-        <li><a href="store.html">Store</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#multimedia-section">Multimedia</a></li>
+            <li><a href="#engineering-section">Engineering</a></li>
+            <li><a href="#business-section">Business</a></li>
+            <li><a href="#about-section">About</a></li>
+        </ul>
+    </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="content-block">
-            <img src="Paul.png" alt="Paul's Image" class="content-image">
-            <div class="content-text">
-                <p>Hi, I'm Paul! I have a passion for designing and creating. From 3D CAD designs to building web applications, I always aim to push the boundaries of creativity and innovation. This portfolio showcases my diverse projects and achievements!</p>
-            </div>
-        </div>
-    </section>
+    <main>
+        <section id="multimedia-section" class="portfolio-section">
+    <div class="section-inner">
+        <h2>Multimedia Portfolio</h2>
+        <p>My work in video direction, editing, interviews, short films, narratives, and more.</p>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="content-block">
-            <div class="content-text">
-                <p>I love taking on new challenges! Below, you can see some of my projects where I combined CAD, web development, and problem-solving skills. Whether it's building custom parts or crafting user-friendly interfaces, I strive for excellence in everything I do.</p>
+        <div id="multimedia-content" class="portfolio-section-content show">
+            <h3 class="category-title">Director</h3>
+            <div class="video-grid">
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+
+            <h3 class="category-title">Edits</h3>
+            <div class="video-grid">
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/ANOTHER_VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+
+            <h3 class="category-title">Interviews</h3>
+            <div class="video-grid">
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/SOME_OTHER_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/SOME_OTHER_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/SOME_OTHER_ID_3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+
+            <h3 class="category-title">Short Films</h3>
+            <div class="video-grid">
+                </div>
+
+            <h3 class="category-title">Narratives</h3>
+            <div class="video-grid">
+                </div>
+
             </div>
-            <img src="https://via.placeholder.com/300" alt="Project 1" class="content-image">
-        </div>
-        
-<div class="content-block">
-    <img src="https://lh4.googleusercontent.com/XIZs37DkIrnTA-XBdb2wkJFRh3ZIg2LeytDMEne9BItWJQcvw0mDw6BRI2gX_EySQYgdQ9kV_T2mv0FpjDVwNGA=w16383" 
-         alt="Interactive App for Pre-K Teachers" 
-         class="content-image">
-    <div class="content-text">
-        <p>One of my favorite projects was collaborating on an interactive app designed for pre-K teachers. The app helps children understand their emotions and navigate social situations. Contributing to this project was both challenging and rewarding, and I’m proud to have been part of a team that made a meaningful impact!</p>
     </div>
-</div>
+</section>
 
-        <div class="content-block">
-            <div class="content-text">
-                <p>In addition to my projects, I also enjoy collaborating with others, learning new skills, and contributing to meaningful causes. Stay tuned as I continue to work on innovative ideas and expand my knowledge in various fields.</p>
+        <section id="engineering-section" class="portfolio-section">
+            <div class="section-inner">
+                <h2>Engineering Portfolio</h2>
+                <div id="engineering-content" class="portfolio-section-content show">
+                    <p>CAD Projects</p>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <img src="SolarJunction.jpeg" alt="Vertical Solar Junction Box">
+                            <a href="https://cad.onshape.com/documents/237e8e6f06a7595dcbda8e3a/w/198036c97c994620cd5f8aec/e/d8ea37a50b79687dc4315db6" target="_blank">Vertical Junction Box</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="Fuse Cover.jpg" alt="Fuse Cover">
+                            <a href="https://cad.onshape.com/documents/80534f64d406fe3761e82cb5/w/f9d2ce12a1a3661f93458a5c/e/d9245b5a885de3718f33a94d" target="_blank">Fuse Cover</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="RubberBandCar.jpg" alt="Rubber Band Car">
+                            <a href="https://cad.onshape.com/documents/3ddc0f9a9eba9ea707762d7a/w/bcdbdb935b3dae5b5cf4575f/e/468379ee58d6ccfd523a2d5d" target="_blank">Rubber Band Car</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="hose.jpg" alt="Hose Bracket">
+                            <a href="https://cad.onshape.com/documents/d4c32577a3100eb8a7debaf0/w/ea8800b943924e51fbd1488f/e/5319c325a0cf3c01ff6789c5" target="_blank">Servo Motor Hose</a>
+                        </div>
+                        <div class="project-card">
+                            <img src="Fidget.jpg" alt="Fidget Mechanism">
+                            <a href="https://cad.onshape.com/documents/d4c32577a3100eb8a7debaf0/w/ea8800b943924e51fbd1488f/e/5319c325a0cf3c01ff6789c5" target="_blank">Fidget Compliant Mechanism</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <img src="https://via.placeholder.com/300" alt="Project 3" class="content-image">
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <p>&copy; 2025 Paul Consuelo-Valencia. All rights reserved.</p>
+        <section id="business-section" class="portfolio-section">
+            <div class="section-inner">
+                <h2>Business Portfolio</h2>
+                <div id="business-content" class="portfolio-section-content show">
+                    <section class="business-subsection">
+                        <h3>My Store</h3>
+                        <p>I sell a variety of items at the flea market, including antiques, retro games, small emulators, and action figures from the 2000s. Here are some pictures of my setup:</p>
+                        <div class="store-gallery">
+                            <img src="stand1.jpg" alt="Flea Market Stand">
+                            <img src="stand2.jpg" alt="Retro Games for Sale">
+                            <img src="stand3.jpg" alt="Collectibles & Figures">
+                        </div>
+                        <a href="https://www.ebay.com/usr/caminaal_0" target="_blank" class="store-link">Visit My eBay Store</a>
+                    </section>
+                    <section class="business-subsection">
+                        <h3>Contact Me</h3>
+                        <div class="socials">
+                            <p><strong>Email:</strong> <a href="mailto:consuelopaul14@gmail.com"><i class="fas fa-envelope"></i> consuelopaul14@gmail.com</a></p>
+                            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paul-consuelo-49292a359/" target="_blank"><i class="fab fa-linkedin"></i> Connect on LinkedIn</a></p>
+                            <p><strong>GitHub:</strong> <a href="https://github.com/Paul0o7" target="_blank"><i class="fab fa-github"></i> View My GitHub</a></p>
+                            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/paul.consuelo.7/" target="_blank"><i class="fab fa-instagram"></i> Follow on Instagram</a></p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-section" class="portfolio-section">
+            <div class="section-inner">
+                <h2>About Me</h2>
+                <div id="about-content" class="portfolio-section-content show">
+                    <article class="about-me">
+                        <figure>
+                            <img src="Paul.png" alt="Paul Consuelo-Valencia" class="about-image">
+                        </figure>
+                        <div class="about-text">
+                            <p>Hi, I'm Paul! I have a passion for designing and creating....</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>© 2025 Paul Consuelo-Valencia</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
